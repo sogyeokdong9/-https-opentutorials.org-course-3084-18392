@@ -2,3 +2,43 @@ html {
   height: 100%;
   width: 100%;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.index_bg {
+  background-color: black;
+  background-image: url("https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3474&q=80");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+.index_bg a {
+  color: white;
+}
+
+.index_bg figure {
+  position: fixed;
+  bottom: 1em;
+}
+
+.index_bg figure blockquote {
+  padding: .4em .7em;
+  background-color: rgba(148, 10, 191, 1);
+}
+
+.index_bg figure blockquote p {
+  font-style: oblique;
+  color: white;
+  text-align: center;
+}
+.index_bg figure figcaption cite,
+.index_bg figure figcaption {
+  font-size: .85em;
+  color: white;
+  text-align: center;
+}
