@@ -36,8 +36,12 @@ img {
   color: white;
   text-align: center;
 }
+.index_bg figure figcaption {
+  margin: 2em 1em;
+}
 .index_bg figure figcaption cite,
 .index_bg figure figcaption {
+  font-style: normal;
   font-size: .85em;
   color: white;
   text-align: center;
